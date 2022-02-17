@@ -40,9 +40,6 @@ max.cat
 
 
 
-
-
-
 Floods_Mutated <- mutate(floods,.before = gheight.ft,
                          stage_meters = gheight.ft * 0.3048,
                          percent_flood = (gheight.ft / major.ft) * 100)
